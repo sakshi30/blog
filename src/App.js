@@ -5,6 +5,7 @@ import SideNav from "./pages/SideNav";
 import MainContent from "./pages/MainContent";
 import { useActiveSection } from "./context/ActiveSection";
 import Footer from "./pages/Footer";
+import ChatWidget from "./components/ChatWidget";
 
 const App = () => {
   const { activeSection } = useActiveSection();
@@ -34,6 +35,7 @@ const App = () => {
       <div className="relative z-10 backdrop-blur-none">
         <Footer />
       </div>
+      <ChatWidget />
     </div>
   );
 };
