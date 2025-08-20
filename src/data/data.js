@@ -93,5 +93,6 @@ const footer = {
   Linkedin: "https://www.linkedin.com/in/srivassa/",
   Github: "https://github.com/sakshi30",
   CodeSandbox: "https://codesandbox.io/u/sakshi30",
+  Huggingface: "https://huggingface.co/sakshi3007",
 };
 export { about, experience, skills, education, footer, projects };
