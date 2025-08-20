@@ -23,7 +23,10 @@ function Projects() {
           </a>
           <div className="mt-4">
             <video className="w-full max-w-md rounded-lg shadow-lg" controls>
-              <source src="/wild_oasis.mov" type="video/mp4" />
+              <source
+                src={`${process.env.PUBLIC_URL}/wild_oasis.mov`}
+                type="video/mp4"
+              />
               Your browser does not support the video tag.
             </video>
           </div>
